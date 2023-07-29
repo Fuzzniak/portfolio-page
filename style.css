@@ -1,0 +1,78 @@
+/* style the entire page */
+html {
+  height: 100%;
+  width: 100%;
+  color: rgb(62, 0, 66);
+  background-color: rgb(150, 174, 220);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*style the top header section of the page */
+header {
+  background-color: rgb(86, 137, 230);
+  border-radius: 10px;
+  padding: 15px 5px 5px 5px;
+}
+
+/*"James Wozniak"*/
+h1 {
+  text-align: center;
+  size: 56px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(62, 0, 66);
+  margin: 10px 5px 0px 5px;
+  padding: 15px 10px 0px 10px;
+}
+
+/*"Web Developer*/
+h2 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(137, 3, 155);
+  margin: 0px 5px 10px 5px;
+  padding: 0px 10px 15px 10px;
+
+}
+
+/*style the section break line*/
+hr {
+  border-width: 3px;
+  border-color: #700fd2;
+}
+
+
+/*style the text of the main body of the web page*/
+body {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 50px 20px 50px;  
+}
+
+/*make the image a good size and a circle*/
+img {
+  width: 500px;
+  border-radius: 50%;
+}
+
+/* style the lists so that the line up with the rest of the page content*/
+ul {
+  list-style-position: inside;
+  text-align: justify;
+  padding-left: 35%;
+  padding-right: 30%;
+  }
+
+/*link styles for the regular color, hover color, visited color, and active link color*/
+a:link    { color: blue;  }
+a:visited { color: darkred;   }
+a:hover   { color: darkcyan; }
+a:active  { color: darkslategrey; }
+
+/*style the copyright to look separate from the rest of the page*/
+footer p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  text-align: right;
+}
+
+
