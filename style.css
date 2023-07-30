@@ -2,14 +2,14 @@
 html {
   height: 100%;
   width: 100%;
-  color: rgb(62, 0, 66);
-  background-color: rgb(150, 174, 220);
+  color: rgb(62, 0, 66); /*keep this color consistent*/
+  background-color: rgb(150, 174, 220); /*keep this color consistent */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*style the top header section of the page */
 header {
-  background-color: rgb(86, 137, 230);
+  background-color: rgb(86, 137, 230); /*color is slightly darker than the rest of the page*/
   border-radius: 10px;
   padding: 15px 5px 5px 5px;
 }
@@ -48,15 +48,15 @@ body {
   padding: 20px 50px 20px 50px;  
 }
 
-/*make the image a good size and a circle*/
+/*style the profile image*/
 img {
   width: 500px;
-  border-radius: 50%;
+  border-radius: 50%; /*turns image into a circle*/
 }
 
 /* style the lists so that the line up with the rest of the page content*/
 ul {
-  list-style-position: inside;
+  list-style-position: inside; /*moves bullets and numbers inside the list box*/
   text-align: justify;
   padding-left: 35%;
   padding-right: 30%;
